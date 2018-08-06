@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Macbeth",
+    "characters": [
+      {
+        "name": "Weird Sisters",
+        "dead": 0,
+        "displayDeathState": 1
+      },
+      {
+        "name": "Banquo",
+        "dead": 0,
+        "displayDeathState": 1
+      },
+      {
+        "name": "Fleance",
+        "dead": 0,
+        "displayDeathState": 1
+      }
+    ]
+  },
+  {
+    "title": "Hamlet",
+    "characters": [
+      {
+        "name": "Polonius",
+        "dead": 0,
+        "displayDeathState": 1
+      },
+      {
+        "name": "Leartes",
+        "dead": 0,
+        "displayDeathState": 1
+      },
+      {
+        "name": "Ophelia",
+        "dead": 0,
+        "displayDeathState": 1
+      }
+    ]
+  },
+  {
+    "title": "Richard II",
+    "characters": [
+      {
+        "name": "Richard II",
+        "dead": 0,
+        "displayDeathState": 1
+      },
+      {
+        "name": "John of Gaunt",
+        "dead": 0,
+        "displayDeathState": 1
+      },
+      {
+        "name": "Henry Bolingbroke",
+        "dead": 0,
+        "displayDeathState": 1
+      }
+    ]
+  }
+]

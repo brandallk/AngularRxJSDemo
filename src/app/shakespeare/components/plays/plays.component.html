@@ -1,0 +1,15 @@
+<div class="container p-5">
+
+  <form [formGroup]="playsForm" class="form-inline" (change)="playSelected()">
+    <div class="form-group">
+      <label for="selectedPlay" class="mr-2">Select a Play:</label>
+      <select name="selectedPlay" id="selectedPlay" class="form-control" [formControl]="selectedPlay">
+        <option hidden disabled>Please Select</option>
+        <option *ngFor="let playTitle of (playTitles$ | async)">{{ playTitle }}</option>
+      </select>
+    </div>
+  </form>
+
+  <app-play-table></app-play-table>
+
+</div>

@@ -1,0 +1,19 @@
+<div class="modal fade" id="appEditModal" tabindex="-1" role="dialog" aria-labelledby="appEditModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="appEditModalLabel">Eliminate {{ (character$ | async).name }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {{ (character$ | async).dead ? 'You have eliminated this character' : 'Do you wish to eliminate this character?' }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" *ngIf="!(character$ | async).dead" (click)="eliminateCharacter()" data-dismiss="modal">Sure. Why not?</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+tr:hover {
+  cursor: pointer;
+  background-color: rgba(200, 208, 218, 0.3);
+}
+
+.red {
+  color: red;
+}
+
+.pink {
+  background-color: pink;
+}
